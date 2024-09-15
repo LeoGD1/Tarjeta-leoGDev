@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Leo Gonzalez Díaz
+N:Gonzalez Díaz;Leo;;;
+ORG:Freelancer
+TITLE:Desarrollador web
+TEL;TYPE=CELL,VOICE:+527227785391
+EMAIL;TYPE=PREF,INTERNET:leo09395@gmail.com
+ADR;TYPE=HOME:;;Toluca;Estado de México;;Mexico
+END:VCARD

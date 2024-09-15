@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Onest", system-ui;
+    /* font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; */
+}
+
+.header {
+    width: 100%;
+    height: 620px;
+    min-height: 620ps;
+    overflow: hidden;
+}
+
+.header__picture {
+    width: 100%;
+    height: 40%;
+    overflow: hidden;
+}
+
+.header__hero {
+    width: 100%;
+    object-fit: cover;
+}
+
+.header__social {
+    width: 100%;
+    height: 60%;
+    background-color: #0B0C10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    padding-bottom: 45px; 
+}
+
+.header__profile {
+    max-width: 230px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    outline: 10px solid #0B0C10;
+    top: -120px;
+}
+
+.header__info {
+    text-align: center;
+    color: #fff;;
+}
+
+.header__name {
+    font-size: 1.7rem;
+}
+
+.header__profession {
+    font-size: 1.1rem;
+    margin: 7px 0;
+}
+.header__ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 11px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.header__li{
+    background-color: #1F2833;
+    padding: 7px 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    transition: background-color 150ms ease-in-out;
+    -webkit-transition: background-color 150ms ease-in-out;
+    -moz-transition: background-color 150ms ease-in-out;
+    -ms-transition: background-color 150ms ease-in-out;
+    -o-transition: background-color 150ms ease-in-out;
+}
+
+.header__li:hover {
+    background-color: #45A29E;
+}
+
+.header__a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (min-width: 444px) {
+    .header__name {
+        font-size: 2.5rem;
+    }
+    
+    .header__profession {
+        font-size: 1.2rem;
+    }
+
+    .header {
+        height: 590px;
+    }
+
+    .header__social {
+        padding-bottom: 60px;
+    }
+
+    .header__hero {
+        transform: translateY(-200px);
+        -webkit-transform: translateY(-200px);
+        -moz-transform: translateY(-200px);
+        -ms-transform: translateY(-200px);
+        -o-transform: translateY(-200px);
+    }
+
+}
