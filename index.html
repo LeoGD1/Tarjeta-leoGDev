@@ -13,6 +13,13 @@
     <script defer src="app.js"></script>
 </head>
 <body>
+    <nav class="nav">
+        <p class="nav__p">
+            <code class="span-color-blue"><</code>
+            LeoGD
+            <code class="span-color-blue">/></code>
+        </p>
+    </nav>
     <header class="header">
         <div class="header__picture">
             <img src="src/cover-picture.jpg" class="header__hero" alt="codigo de programación">
@@ -20,12 +27,87 @@
         <div class="header__social">
             <img src="src/profile-picture.jpg" class="header__profile" alt="leoGDev">
             <div class="header__info">
-                <h2 class="header__name">Hola! Soy LeoGD</h2>
+                <h2 class="header__name"><code class="span-color-blue"><</code>Hola! Soy LeoGD <code class="span-color-blue">/></code></h2>
                 <p class="header__profession">Desarrollador web y Diseñador</p>
             </div>
             <ul class="header__ul">
             </ul>
         </div>
     </header>
+    <section class="sobre-mi">
+        <div class="sobre-mi__container">
+            <h2 class="sobre-mi__title">Sobre Mi</h2>
+            <p class="sobre-mi__description">'Soy Leonardo de Jesús González Díaz, Lic. en <code class="span-color-blue">Informática Administrativa</code> y apasionado por la tecnología, especialmente en <code class="span-color-blue">programación y diseño.</code> Manejo tecnologías como <code class="span-color-blue">HTML5, CSS3, JavaScript, React, Vite, Tailwind CSS, Illustrator y Photoshop.</code> Mi objetivo es ayudar a negocios y emprendedores a destacar su presencia digital mediante soluciones innovadoras en diseño y desarrollo web.'<code class="span-color-blue">;</code></p>
+            <div class="options">
+                <i class="fa-solid fa-circle circle circle-green"></i>
+                <i class="fa-solid fa-circle circle circle-yellow"></i>
+                <i class="fa-solid fa-circle circle circle-red"></i>
+            </div>
+            <a href="https://leogdev-portafolio.netlify.app/#projects" target="_blank" class="sobre-mi__link">
+                Ver proyectos
+                <i class="fa-solid fa-arrow-up-right-from-square icon-link"></i>
+            </a>
+        </div>
+    </section>
+    <section class="servicios">
+        <div class="servicios__container">
+            <h2 class="servicios__title">Mis Servicios</h2>
+            <div class="servicios__services">
+                <article class="servicios__service">
+                    <i class="fa-solid fa-pen-nib servicios__icon"></i>
+                    <h3 class="servicios__name">Diseño</h3>
+                    <p class="servicios__description">Realizo el diseño de tu sitio web tomando en cuenta las especificaciones que desees, creando una interfaz visualmente atractiva, facil de navegar e intuitiva.</p>
+                </article>
+                <article class="servicios__service">
+                    <i class="fa-solid fa-code servicios__icon"></i>
+                    <h3 class="servicios__name">Desarrollo web</h3>
+                    <p class="servicios__description">Tomando en cuenta el diseño previamente elaborado y autorizado por el cliente, inicio con el desarrollo del sitio web con la finalidad de obtner un sitio funcional.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="clientes">
+        <div class="clientes__container">
+            <h2 class="clientes__title">Clientes</h2>
+            <div class="clientes__clients">
+                <div class="clientes__client">
+                    <img src="src/logo_color.png" alt="printi color logo" class="clientes__logo">
+                </div>
+                <div class="clientes__client">
+                    <img src="src/logo-condinv.svg" alt="printi color logo" class="clientes__logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="QRS">
+        <div class="QRS__container">
+            <div class="QRS__qrs">
+                <article class="QRS__qr">
+                    <h2 class="QRS__name">Compartir tarjeta</h2>
+                    <img src="src/qr-link.png" alt="qr tarjeta leo" class="QRS__img">
+                    <div class="options">
+                        <i class="fa-solid fa-circle circle circle-green"></i>
+                        <i class="fa-solid fa-circle circle circle-yellow"></i>
+                        <i class="fa-solid fa-circle circle circle-red"></i>
+                    </div>
+                </article>
+                <article class="QRS__qr">
+                    <h2 class="QRS__name">VCard</h2>
+                    <img src="src/mecardleo.png" alt="qr tarjeta leo" class="QRS__img">
+                    <a href="https://tarjeta-leogdev.netlify.app/public/vcardleo.vcf"  download="leogd-contacto.vcf" class="QRS__a">Guardar contacto</a>
+                    <div class="options">
+                        <i class="fa-solid fa-circle circle circle-green"></i>
+                        <i class="fa-solid fa-circle circle circle-yellow"></i>
+                        <i class="fa-solid fa-circle circle circle-red"></i>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <div class="contacto">
+        <a href="https://api.whatsapp.com/send?phone=+527227785391&text=Hola%20Leo!%20Me%20interesa%20contratar%20tus%20servicios%20de%20dise%C3%B1o%20y%20desarrollo%20web." class="contacto__container">
+            <i class="fa-brands fa-whatsapp contacto__icon"></i>
+        </a>
+    </div>
 </body>
 </html>

@@ -34,3 +34,8 @@ font-awesome: cdn <script defer src="https://kit.fontawesome.com/676f8336d2.js" 
     - sitio web: <i class="fa-solid fa-globe"></i>
     - mail: <i class="fa-solid fa-envelope"></i> 
 
+
+
+<img src="src/logo_color.png" alt="printi color logo" class="clientes__img">
+                <h3 class="clientes__nombre">Printi Color</h3>
+                <a href="#" class="clientes__link">Ver sitio</a>
